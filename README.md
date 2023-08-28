@@ -29,6 +29,7 @@ Feel free to contact via email!
  #### Known Issues
  
  - There's no handling in place for getting the same background color twice in a row.
+ - Reliant on [CORS Anywhere](https://github.com/Rob--W/cors-anywhere), so there is a limit on data requests.
 
  #### Project Goals
 
