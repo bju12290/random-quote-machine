@@ -1,0 +1,54 @@
+body {
+  --color: #fafafa;
+  --container-color: white;
+  transition: background-color 0.3s ease, text-color 0.3s ease, container-color 0.3s ease, link-color 0.3s ease, box-shadow-color 0.3s ease !important;
+}
+
+body.red {
+  color: #dc3545;
+  background-color: #dc3545;
+  --button-color: #dc3545;
+  --box-shadow-color: #8b1e29;
+  transition: background-color 0.3s ease, text-color 0.3s ease, container-color 0.3s ease, link-color 0.3s ease, box-shadow-color 0.3s ease !important;
+}
+
+body.orange {
+  color: #fd7e14;
+  background-color: #fd7e14;
+  --button-color: #fd7e14;
+  --box-shadow-color: #b45a0f;
+  transition: background-color 0.3s ease, text-color 0.3s ease, container-color 0.3s ease, link-color 0.3s ease, box-shadow-color 0.3s ease !important;
+}
+
+body.yellow {
+  color: #ffc107;
+  background-color: #ffc107;
+  --button-color: #ffc107;
+  --box-shadow-color: #c99806;
+  transition: background-color 0.3s ease, text-color 0.3s ease, container-color 0.3s ease, link-color 0.3s ease, box-shadow-color 0.3s ease !important;
+}
+
+body.green {
+  color: #20c997;
+  background-color: #20c997;
+  --button-color: #20c997;
+  --box-shadow-color: #148161;
+  transition: background-color 0.3s ease, text-color 0.3s ease, container-color 0.3s ease, link-color 0.3s ease, box-shadow-color 0.3s ease !important;
+}
+
+body.blue {
+  color: #0d6efd;
+  background-color: #0d6efd;
+  --button-color: #0d6efd;
+  --box-shadow-color: #0a4eb4;
+  transition: background-color 0.3s ease, text-color 0.3s ease, container-color 0.3s ease, link-color 0.3s ease, box-shadow-color 0.3s ease !important;
+}
+
+body.purple {
+  color: #6f42c1;
+  background-color: #6f42c1;
+  --button-color: #6f42c1;
+  --box-shadow-color: #4a2b83;
+  transition: background-color 0.3s ease, text-color 0.3s ease, container-color 0.3s ease, link-color 0.3s ease, box-shadow-color 0.3s ease !important;
+}
+
