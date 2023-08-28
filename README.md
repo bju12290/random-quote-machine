@@ -1,27 +1,45 @@
-# React + TypeScript + Vite
+# Trivia App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Usage
 
-Currently, two official plugins are available:
+You can play with the application yourself at [this link](https://bju12290.github.io/random-quote-machine/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application simply requests quote data from the [Quotable API](https://api.quotable.io/), and then displays a quote as well as the author on screen.
 
-## Expanding the ESLint configuration
+You can get a new quote by clicking the "New Quote" button, and you can share the quote as well as the author to twitter by clicking the "Tweet This" button.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Visuals
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies Used
+ - [Vite](https://vitejs.dev/): A build tool that offers fast development and optimized production builds for modern web applications.
+ - [React](https://react.dev/): A JavaScript library for building user interfaces, allowing for the creation of dynamic and interactive components.
+ - [Bootstrap](https://getbootstrap.com/): A front-end framework that provides pre-designed UI components and responsive layout utilities.
+
+ ## Project Structure
+- **'src/'**: At the heart of the application, the **'src/'** directory houses various project assets, the **index.jsx** file for routing, the **App.jsx** componenthigh-level structure definition, and the **index.css** file for application-wide styling.
+   - **'components/'** : This directory serves as a container for reusable components that are used throughout the application (in this minimal example there is only one, so this is arguably unecessary. I structured the project this way to keep future development simpler.)
+
+ #### Contact Information
+
+Feel free to contact via email! 
+
+```brian.phartnettjr@gmail.com```
+ #### Known Issues
+ 
+ - There's no handling in place for getting the same background color twice in a row.
+
+ #### Project Goals
+
+- Randomly display a quote and author from an API:white_check_mark:
+- Create a button for users to request a new quote:white_check_mark:
+
+#### Additional Challenges
+
+- Change the background color, text color, button color, and box shadow color with each new quote displayed. :white_check_mark:
+
+
+
+ 
+
