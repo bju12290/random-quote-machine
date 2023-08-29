@@ -1,4 +1,4 @@
-# Trivia App
+# Random Quote Machine
 
 ## Usage
 
@@ -18,7 +18,7 @@ You can get a new quote by clicking the "New Quote" button, and you can share th
  - [Bootstrap](https://getbootstrap.com/): A front-end framework that provides pre-designed UI components and responsive layout utilities.
 
  ## Project Structure
-- **'src/'**: At the heart of the application, the **'src/'** directory houses various project assets, the **index.jsx** file for routing, the **App.jsx** componenthigh-level structure definition, and the **index.css** file for application-wide styling.
+- **'src/'**: At the heart of the application, the **'src/'** directory houses various project assets, the **index.jsx** file for routing, the **App.jsx** component for high-level structure definition, and the **index.css** file for application-wide styling.
    - **'components/'** : This directory serves as a container for reusable components that are used throughout the application (in this minimal example there is only one, so this is arguably unecessary. I structured the project this way to keep future development simpler.)
 
  #### Contact Information
