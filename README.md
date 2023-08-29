@@ -8,10 +8,6 @@ This application simply requests quote data from the [Quotable API](https://api.
 
 You can get a new quote by clicking the "New Quote" button, and you can share the quote as well as the author to twitter by clicking the "Tweet This" button.
 
-
-## Visuals
-
-
 ## Technologies Used
  - [Vite](https://vitejs.dev/): A build tool that offers fast development and optimized production builds for modern web applications.
  - [React](https://react.dev/): A JavaScript library for building user interfaces, allowing for the creation of dynamic and interactive components.
