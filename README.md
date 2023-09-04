@@ -2,7 +2,7 @@
 
 ## Usage
 
-You can play with the application yourself at [this link](https://bju12290.github.io/random-quote-machine/). **Note: Due to reliance on CORS Anywhere, you'll have to complete a challenge to temporary unlock the demo for your browser. You can do so by visiting [this link](cors-anywhere.herokuapp.com) and clicking the button.**
+You can play with the application yourself at [this link](https://bju12290.github.io/random-quote-machine/). **Note: Due to reliance on CORS Anywhere, you'll have to complete a challenge to temporary unlock the demo for your browser. You can do so by visiting [this link](https://cors-anywhere.herokuapp.com/corsdemo) and clicking the button.**
 
 This application simply requests quote data from the [Quotable API](https://api.quotable.io/), and then displays a quote as well as the author on screen.
 
